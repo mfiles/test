@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+  </head>
+  <body>
+    <style media="screen">
+      img {
+        width: 100%;
+      }
+      
+      .page-wrap {
+        display: inline-block;
+        width: 20%;
+        vertical-align: top;
+      }
+    </style>
+    
+    <div class="letter">
+      <script>
+        var NUM_IMG = 15;
+        for (let i = 1; i <= NUM_IMG; i++) {
+          document.write('<div class="page-wrap"><img src=p' + i + '.jpeg></div>')
+        }
+      </script>
+    </div>
+    
+  </body>
+</html>
