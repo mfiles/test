@@ -31,6 +31,8 @@ body {
   width: 700px;
   margin-bottom: 15px;
   margin-top: -50px;
+  margin-left: 100%;
+    margin-right: 100%;
 }
 
 .nav {
